@@ -1,0 +1,130 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  max-width: 45rem;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin:10px
+}
+ul {
+  list-style: none;
+}
+nav ul {
+  display: flex;
+  gap: 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+#hero img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+#hero {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+#hero h1 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+#hero p {
+  font-size: 1rem;
+  color: #555;
+}
+.about-me h2{
+  margin: start;
+  text-align: left;
+}
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: left;
+  padding: 2rem;
+}
+.about-me p {
+  line-height: 1.5rem;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.social-media{
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.btn-link:hover {
+  outline: 2px solid #23282B; /* Borde negro separado */
+  outline-offset: 3px;
+}
+.btn-link {
+  background-color: black;
+  display: inline-flex;
+  color: white;
+  gap:0.5rem;
+  align-items: center;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 10px 10px;
+  transition: outline-offset 0.3s ease, outline-color 0.3s ease;
+}
+.social-media img{
+  width: 20px;  
+  ;
+}
+.btn-github {
+  background-color:#cdcdcd;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  border-radius: 0.25rem;
+  padding: 10px 10px;
+  border: none;
+  transition: outline-offset 0.3s ease, outline-color 0.3s ease;
+}
+.btn-github:hover {
+  outline: 2px solid #cdcdcd; /* Borde negro separado */
+  outline-offset: 3px;
+}
+.work{
+  padding: 1rem;
+  border: #23282B solid 0.025rem;
+  border-radius: 40px;
+}
+.work-experience{
+  padding: 2rem;
+}
+.work-experience-item{
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.work-experience-list ul{
+  list-style-type: disc;
+}
+.work-experience-list li{
+  margin-bottom: 1rem;
+  line-height: 1.25rem;
+}
+
+.work-experience img{
+  width: 5rem;
+}
+footer {
+  text-align: center;
+}
