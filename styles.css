@@ -10,7 +10,6 @@ nav {
   display: flex;
   width: 100%;
   justify-content: center;
-  margin:10px
 }
 ul {
   list-style: none;
@@ -34,6 +33,7 @@ nav ul li a {
   justify-content: space-evenly;
   align-items: center;
   margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 #hero h1 {
   font-size: 2rem;
@@ -52,7 +52,7 @@ nav ul li a {
   flex-direction: column;
   align-items: start;
   text-align: left;
-  padding: 2rem;
+
 }
 .about-me p {
   line-height: 1.5rem;
@@ -66,6 +66,7 @@ a{
   display: flex;
   align-items: center;
   gap: 1rem;
+  margin-bottom: 1.5rem;
 }
 .btn-link:hover {
   outline: 2px solid #23282B; /* Borde negro separado */
@@ -84,7 +85,6 @@ a{
 }
 .social-media img{
   width: 20px;  
-  ;
 }
 .btn-github {
   background-color:#cdcdcd;
@@ -101,13 +101,18 @@ a{
   outline: 2px solid #cdcdcd; /* Borde negro separado */
   outline-offset: 3px;
 }
+.work,.education-item{
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 40px;
+  border: #23282B solid 0.025rem;
+}
 .work{
   padding: 1rem;
-  border: #23282B solid 0.025rem;
   border-radius: 40px;
-}
-.work-experience{
-  padding: 2rem;
+  
 }
 .work-experience-item{
   display: flex;
@@ -121,8 +126,25 @@ a{
   margin-bottom: 1rem;
   line-height: 1.25rem;
 }
-
 .work-experience img{
+  width: 5rem;
+}
+.education-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2rem;
+
+}
+.work:hover{
+  box-shadow: #23282B 0px 0px 10px;
+  transform: scale(1.05);
+}
+.education-item:hover{
+  box-shadow: #23282B 0px 0px 10px;
+  transform: scale(1.05);
+}
+.education-icon img{
   width: 5rem;
 }
 footer {
