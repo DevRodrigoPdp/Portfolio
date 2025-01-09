@@ -364,10 +364,6 @@ label{
   box-sizing: border-box;
 }
 .message-form .custom-placeholder::placeholder {
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: translate(10px, 10px); /* Ajusta la posición según el padding */
   font-size: 0.9rem;
   color: #888;
 }
