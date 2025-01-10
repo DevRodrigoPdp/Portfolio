@@ -172,6 +172,14 @@ a{
 .education-icon img{
   width: 5rem;
 }
+
+#contact{
+  gap: 1rem;
+  border: solid #23282B 1px;
+  border-radius: 1rem;
+  padding : 0px 15px 15px 15px;
+ 
+}
 @media (max-width: 768px) {
 
   body{
@@ -233,11 +241,9 @@ a{
     grid-template-columns: 1fr; /* Cambia a una sola columna */
     row-gap: 2rem;
   }
-
   .skill-item h3 {
     text-align: center;
   }
-
   .languages, .frontends, .backends, .others {
     justify-content: center;
     flex-wrap: wrap; /* Centra las habilidades en móviles */ /* Permite que las habilidades pasen a la siguiente línea si es necesario */
@@ -304,6 +310,7 @@ footer {
   row-gap: 1rem; /* Espacio entre filas */
   column-gap: 2rem; /* Espacio entre columnas */
   align-items: center; 
+  margin-bottom: 1rem;
 }
 
 .skill-item {
@@ -364,6 +371,7 @@ label{
   box-sizing: border-box;
 }
 .message-form .custom-placeholder::placeholder {
+   /* Ajusta la posición según el padding */
   font-size: 0.9rem;
   color: #888;
 }
